@@ -1,9 +1,4 @@
-from typing import List, Any
-
-
 class AeroplaneSeating:
-
-    aeroplane_seating: list[Any]
 
     def __init__(self, seating_grid, passenger_id_list):
         self.seating_grid = seating_grid

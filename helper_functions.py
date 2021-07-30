@@ -5,7 +5,8 @@ import math
 def isPrime(n):
     if n == 1:
         return 0
-    for i in range(2, math.floor(math.sqrt(n))):
+    k = math.ceil(n**0.5)
+    for i in range(2, k+1):
         if n % i == 0:
             return 0
     return 1

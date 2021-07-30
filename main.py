@@ -30,6 +30,7 @@ for i in range(len(seating_arrangement)):
 
 # Arranging the passenger IDs according to the priority
 passenger_id = orderSeating(passenger_id)
+print("Priority order: ", passenger_id, "\n")
 
 # Creating the instance of AeroplaneSeating class
 aeroplane1 = AeroplaneSeating(seating_arrangement_list, passenger_id)
@@ -42,4 +43,5 @@ passenger_id = passenger_id[index:]
 
 if len(passenger_id) > 0:
     aeroplane1.fillMiddleSeats(passenger_id)
+
 aeroplane1.displaySeating()

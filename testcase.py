@@ -1,10 +1,18 @@
-import main, helper_functions, aeroplaneSeating
 import unittest
+import helper_functions
 
 
 class MyTestCase(unittest.TestCase):
-    def testPrime(self):
-        result = helper_functions.isPrime(3)
+    def testPrime1(self):
+        result = helper_functions.isPrime(15)
+        self.assertEqual(result, 0)
+
+    def testPrime2(self):
+        result = helper_functions.isPrime(7)
+        self.assertEqual(result, 1)
+
+    def testPrime3(self):
+        result = helper_functions.isPrime(6)
         self.assertEqual(result, 0)
 
 

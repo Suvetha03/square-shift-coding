@@ -19,7 +19,8 @@ class AeroplaneSeating:
         i = j = 0
         k = -1
         index = 0
-        for _ in passenger_id:
+        n = len(passenger_id) * 2
+        for _ in range(n):
             try:
                 self.aeroplane_seating[i][j][k] = passenger_id[index]
                 index = index + 1
@@ -42,7 +43,8 @@ class AeroplaneSeating:
         j = 0
         k = 0
         index = 0
-        for _ in passenger_id:
+        n = len(passenger_id) * 2
+        for _ in range(n):
             try:
                 self.aeroplane_seating[i][j][k] = passenger_id[index]
                 index = index + 1
@@ -61,7 +63,8 @@ class AeroplaneSeating:
         i = j = 0
         k = 1
         index = 0
-        for _ in passenger_id:
+        n = len(passenger_id) * 2
+        for _ in range(n):
             try:
                 self.aeroplane_seating[i][j][k] = passenger_id[index]
                 k = k + 1

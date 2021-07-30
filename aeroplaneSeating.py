@@ -7,7 +7,6 @@ class AeroplaneSeating:
 
     # creating the seats
     def createSeating(self, seating_arrangement):
-        print(seating_arrangement)
         for dim in seating_arrangement:
             seat_grid = []
             for i in range(dim[1]):
@@ -22,8 +21,9 @@ class AeroplaneSeating:
         n = len(passenger_id) * 2
         for _ in range(n):
             try:
-                self.aeroplane_seating[i][j][k] = passenger_id[index]
-                index = index + 1
+                if len(self.aeroplane_seating[i][j]) > 1:
+                    self.aeroplane_seating[i][j][k] = passenger_id[index]
+                    index = index + 1
             except:
                 pass
             if k == -1:

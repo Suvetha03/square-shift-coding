@@ -14,9 +14,12 @@
  
 ## Sample input 1
 C:\Users\SUVETHA\AppData\Local\Programs\Python\Python39\python.exe C:/Users/SUVETHA/squareshift/main.py
-[[3,2], [4,3], [2,3], [3,4]]
 
-[29,59,14,11,3,13,15,18,12,16,6,17,7,47,61,5,21,2,41,9,10,8,19,1,4]\
+
+[[3,2], [4,3], [2,3], [3,4]]\
+[29,59,14,11,3,13,15,18,12,16,6,17,7,47,61,5,21,2,41,9,10,8,19,1,4]
+
+
 Priority order:  [29, 59, 11, 3, 13, 17, 7, 47, 61, 5, 41, 19, 16, 8, 1, 4, 14, 15, 18, 12, 6, 21, 2, 9, 10] 
 
 [18, 10, 29]
@@ -45,8 +48,12 @@ Process finished with exit code 0
 
 ## sample input 2
 C:\Users\SUVETHA\AppData\Local\Programs\Python\Python39\python.exe C:/Users/SUVETHA/squareshift/main.py
-[[4,2], [3,2], [4,3], [5,4]] \
+
+
+[[4,2], [3,2], [4,3], [5,4]]\ 
 [27,55,14,20,3,13,15,29,12,16,6,17,7,47,61,5,21,2,42,9,10,8,19,1,4]\
+
+
 Priority order:  [3, 13, 29, 17, 7, 47, 61, 5, 19, 16, 8, 1, 4, 27, 55, 14, 20, 15, 12, 6, 21, 2, 42, 9, 10] 
 
 [20, 42, 9, 3]
@@ -74,8 +81,8 @@ Process finished with exit code 0
 
 ## sample input 3
 C:\Users\SUVETHA\AppData\Local\Programs\Python\Python39\python.exe C:/Users/SUVETHA/squareshift/main.py
-[[1,4], [2,6], [5,7], [5,5]]
 
+[[1,4], [2,6], [5,7], [5,5]]\
 [29,43,45,11,3,13,32,18,89,16,6,17,7,75,62,5,21,2,41,9,10,8,15,1,4,98,34,49,81,34,67,54,23]
 
 
@@ -117,8 +124,7 @@ Process finished with exit code 0
 
 ## sample input 4
 C:\Users\SUVETHA\AppData\Local\Programs\Python\Python39\python.exe C:/Users/SUVETHA/squareshift/main.py
-[[2,4], [2,6], [5,4], [1,5]]
-
+[[2,4], [2,6], [5,4], [1,5]]\
 [29,43,45,11,3,13,32,18,89,16,6,17,7,75,62,5,21,2,41,9,10,8,15,1,4,98,34,49,81,34,67,54,23]
 
 
@@ -157,8 +163,7 @@ Process finished with exit code 0
 
 ## sample input 5
 C:\Users\SUVETHA\AppData\Local\Programs\Python\Python39\python.exe C:/Users/SUVETHA/squareshift/main.py
-[[2,4], [3,4], [4,3], [3,2]]
-
+[[2,4], [3,4], [4,3], [3,2]]\
 [29,43,45,11,3,13,32,18,89,16,6,17,7,75,62,5,21,2,41,9,10,8,15,1,4,98,34,49,81,34,67,54,23]
 
 
